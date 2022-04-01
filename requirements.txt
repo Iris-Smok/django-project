@@ -1,0 +1,13 @@
+asgiref==3.5.0
+backports.zoneinfo==0.2.1
+black==22.3.0
+click==8.1.2
+coverage==6.3.2
+Django==3.2
+gunicorn==20.1.0
+pathspec==0.9.0
+psycopg2-binary==2.9.3
+pylint-django==2.5.3
+pylint-plugin-utils==0.7
+pytz==2022.1
+sqlparse==0.4.2

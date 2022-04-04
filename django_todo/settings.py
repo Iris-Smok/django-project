@@ -11,8 +11,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import dj_database_url
 import os
+import dj_database_url
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -84,7 +85,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse('postgres://nqcnevarjagdkb:f58c5157669345a108a1d5ab58fe7f7bba9e3b6cc19a567c49553e5a9994237e@ec2-54-173-77-184.compute-1.amazonaws.com:5432/dfhscb4fknd588')
+    'default': dj_database_url.parse('postgres://jewtmuzrbwvdqh:1b40714b810ccacca4f47d746f93ca8012b1abd33e7a827b0d7863b5e2927f93@ec2-52-212-228-71.eu-west-1.compute.amazonaws.com:5432/d5d08vhm3b12q')
 }
 
 
